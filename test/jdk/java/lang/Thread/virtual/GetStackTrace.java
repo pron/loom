@@ -28,7 +28,7 @@
  * @requires vm.continuations
  * @enablePreview
  * @modules java.base/java.lang:+open
- * @run main GetStackTrace
+ * @run testng/othervm -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames GetStackTrace
  */
 
 import java.util.Objects;

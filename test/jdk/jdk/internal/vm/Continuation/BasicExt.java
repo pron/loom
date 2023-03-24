@@ -34,7 +34,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -XX:+IgnoreUnrecognizedVMOptions -XX:+VerifyContinuations -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -55,7 +55,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -XX:+IgnoreUnrecognizedVMOptions -XX:+VerifyContinuations -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -76,7 +76,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -XX:+IgnoreUnrecognizedVMOptions -XX:+VerifyContinuations -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -97,7 +97,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -XX:+IgnoreUnrecognizedVMOptions -XX:+VerifyContinuations -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -118,7 +118,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -XX:+IgnoreUnrecognizedVMOptions -XX:+VerifyContinuations -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -139,7 +139,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -160,7 +160,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -181,7 +181,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -202,7 +202,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
@@ -223,7 +223,7 @@
  * @build jdk.test.whitebox.WhiteBox
  * @run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
  *
- * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI -Xbootclasspath/a:.
+ * @run main/othervm   -XX:+UnlockDiagnosticVMOptions -XX:+ShowHiddenFrames -XX:+WhiteBoxAPI -Xbootclasspath/a:.
  *                     -Xbatch -XX:-TieredCompilation
  *                     -XX:CompileCommand=dontinline,*::*dontinline*
  *                     -XX:CompileCommand=dontinline,*::*dontjit*
